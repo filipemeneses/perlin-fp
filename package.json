@@ -1,0 +1,24 @@
+{
+  "name": "perlin-fp",
+  "version": "1.0.0",
+  "description": "3-dimensional Perlin noise generator",
+  "main": "domain/perlin/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "keywords": [
+    "perlin",
+    "functional-programming"
+  ],
+  "author": "Filipe Meneses <flcmeneses@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "perlin-fp": "./perlin-fp-1.0.0.tgz"
+  }
+}
