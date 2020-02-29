@@ -1,6 +1,6 @@
 {
   "name": "perlin-fp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "3-dimensional Perlin noise generator",
   "main": "domain/perlin/index.js",
   "scripts": {
@@ -17,8 +17,5 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
     "jest": "^25.1.0"
-  },
-  "dependencies": {
-    "perlin-fp": "./perlin-fp-1.0.0.tgz"
   }
 }
